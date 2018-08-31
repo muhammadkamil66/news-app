@@ -5,18 +5,23 @@ $.ajax({
 		document.querySelector(".heading-1").innerHTML = (data.articles[4].title);
 		document.querySelector(".news-1").innerHTML = (data.articles[4].description);
 		document.querySelector(".img-1").style["background-image"] = `url(${data.articles[4].urlToImage})`;
+		document.querySelector(".url-1").href = (data.articles[4].url);
 
 
 		document.querySelector(".news-detail-2 > h1").innerHTML = (data.articles[1].author);
 		document.querySelector(".heading-2").innerHTML = (data.articles[1].title);
 		document.querySelector(".news-2").innerHTML = (data.articles[1].description);
 		document.querySelector(".img-2").style["background-image"] = `url(${data.articles[1].urlToImage})`;
+		document.querySelector(".url-2").href = (data.articles[1].url);
 
 
 		document.querySelector(".news-detail-3 > h1").innerHTML = (data.articles[3].author);
 		document.querySelector(".heading-3").innerHTML = (data.articles[3].title);
 		document.querySelector(".news-3").innerHTML = (data.articles[3].description);
 		document.querySelector(".img-3").style["background-image"] = `url(${data.articles[3].urlToImage})`;
+		document.querySelector(".url-3").href = (data.articles[3].url);
+		
+		
 		
 
 	},
@@ -37,18 +42,21 @@ $.ajax({
 		document.querySelector(".heading-4").innerHTML = (data.articles[0].title);
 		document.querySelector(".news-4").innerHTML = (data.articles[0].description);
 		document.querySelector(".img-4").style["background-image"] = `url(${data.articles[0].urlToImage})`;
+		document.querySelector(".url-4").href = (data.articles[0].url);
 
 
 		document.querySelector(".news-detail-5 > h1").innerHTML = (data.articles[1].author);
 		document.querySelector(".heading-5").innerHTML = (data.articles[1].title);
 		document.querySelector(".news-5").innerHTML = (data.articles[1].description);
 		document.querySelector(".img-5").style["background-image"] = `url(${data.articles[1].urlToImage})`;
+		document.querySelector(".url-5").href = (data.articles[1].url);
 
 
 		document.querySelector(".news-detail-6 > h1").innerHTML = (data.articles[3].author);
 		document.querySelector(".heading-6").innerHTML = (data.articles[3].title);
 		document.querySelector(".news-6").innerHTML = (data.articles[3].description);
 		document.querySelector(".img-6").style["background-image"] = `url(${data.articles[3].urlToImage})`;
+		document.querySelector(".url-6").href = (data.articles[3].url);
 		
 
 	},
@@ -67,18 +75,21 @@ $.ajax({
 		document.querySelector(".heading-7").innerHTML = (data.articles[0].title);
 		document.querySelector(".news-7").innerHTML = (data.articles[0].description);
 		document.querySelector(".img-7").style["background-image"] = `url(${data.articles[0].urlToImage})`;
+		document.querySelector(".url-7").href = (data.articles[0].url);
 
 
 		document.querySelector(".news-detail-8 > h1").innerHTML = (data.articles[1].author);
 		document.querySelector(".heading-8").innerHTML = (data.articles[1].title);
 		document.querySelector(".news-8").innerHTML = (data.articles[1].description);
 		document.querySelector(".img-8").style["background-image"] = `url(${data.articles[1].urlToImage})`;
+		document.querySelector(".url-8").href = (data.articles[1].url);
 
 
 		document.querySelector(".news-detail-9 > h1").innerHTML = (data.articles[2].author);
 		document.querySelector(".heading-9").innerHTML = (data.articles[2].title);
 		document.querySelector(".news-9").innerHTML = (data.articles[2].description);
 		document.querySelector(".img-9").style["background-image"] = `url(${data.articles[2].urlToImage})`;
+		document.querySelector(".url-9").href = (data.articles[2].url);
 		
 
 	},
