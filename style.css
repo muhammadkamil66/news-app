@@ -1,7 +1,6 @@
 body{
-	background-image: url("images/news-2.jpg");
+	background-image: url("images/news.jpg");
 	background-size: cover;
-	font-family: 'Roboto', sans-serif;
 	height: 100%;
 	margin: 0;
 }
@@ -10,6 +9,7 @@ html{
 }
 .main{
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	overflow-y: scroll;
 	height: 100%;
@@ -18,7 +18,7 @@ html{
 .main div{
 	display: flex;
 	flex-direction: column;
-	width: 32%;
+	width: 30%;
 	min-width: 300px;
 	margin: 5px;
 	justify-content: center;
@@ -29,11 +29,13 @@ html{
 }
 
 .main .news{
-	background-color: #637e8f78;
+	background-color: #dbdbdb91;
+	border: 1px solid #343a40;	
 }
 .main .news:hover{
-	color: white;
-	background-color: #637e8ff0;
+	background-color: #d7d7d7;
+	transition: 1s;
+	transform: scale(1.1);
 }
 
 .img{
@@ -44,18 +46,19 @@ html{
 }
 
 .author{
-	margin-bottom: 0px;
+	font-family: 'Kaushan Script', cursive;
 }
-.head-detail p:nth-child(1){
-	margin: 0px;
+
+.title{
+      font-family: cursive;
 }
-button{
-	color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545;
-    cursor: pointer;
-    padding: 5px;
+#heading{
+	width: 100%;
+	font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+
 }
+
 @media only screen and (max-width: 965px) {
     .main div {
         width: 48%;
@@ -64,6 +67,7 @@ button{
     	height: 250px;
     }
 }
+
 @media only screen and (max-width: 655px) {
     .main div {
         width: 100%;
