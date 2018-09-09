@@ -46,11 +46,11 @@ html{
 }
 
 .author{
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Merriweather', serif;
 }
 
 .title{
-      font-family: cursive;
+    font-family: 'Roboto', sans-serif;
 }
 #heading{
 	width: 100%;
